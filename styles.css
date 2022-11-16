@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'BallparkWeiner';
+    src: url(assets/fonts/ballpark.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Dayrom';
+    src: url(assets/fonts/dayrom.ttf);
+    font-weight: normal;
+}
+
+body {
+    background: url(assets/images/fond_jaune.png);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: black;
+}
+
+#main-wrapper {
+    width: 85%;
+    margin: auto
+}
+
+section h1, footer h1, nav a {
+    font-family: 'Dayrom';
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+header {
+    background: url(assets/images/separateur.png) repeat-x bottom ;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#titre-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;  
+    width: 59px;
+    height: 60px;
+}
+
+header h1 {
+    font-family: 'BallparkWeiner', serif;
+    font-weight: normal;
+    font-size: 300%;
+    margin: 0 0 0 10px;
+}
+
+header h2 {
+    font-family: 'Dayrom', sans-serif;
+    font-size: 150%;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 130%;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: #760001;
+    border-bottom: 2px #760001 solid;
+}
