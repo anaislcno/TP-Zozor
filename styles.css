@@ -1,3 +1,5 @@
+/* Polices persos */
+
 @font-face {
     font-family: 'BallparkWeiner';
     src: url(assets/fonts/ballpark.ttf);
@@ -9,6 +11,8 @@
     src: url(assets/fonts/dayrom.ttf);
     font-weight: normal;
 }
+
+/* Éléments de base  */
 
 body {
     background: url(assets/images/fond_jaune.png);
@@ -26,6 +30,8 @@ section h1, footer h1, nav a {
     font-weight: normal;
     text-transform: uppercase;
 }
+
+/* Header */
 
 header {
     background: url(assets/images/separateur.png) repeat-x bottom ;
@@ -80,3 +86,18 @@ nav a:hover {
     color: #760001;
     border-bottom: 2px #760001 solid;
 }
+
+/* Je ferais la bannière après */
+
+ /* Body */ 
+
+ article, aside {
+    text-align: justify;
+ }
+
+ /* Footer */
+
+ footer {
+    display: flex;
+    justify-content: space-around;
+ }
