@@ -21,7 +21,7 @@ body {
 }
 
 #main-wrapper {
-    width: 90%;
+    width: 85%;
     margin: auto
 }
 
@@ -87,10 +87,10 @@ nav a:hover {
     border-bottom: 2px #760001 solid;
 }
 
-/* Je ferais la bannière après */
+/* Bannière */
 
 #banniere-img {
-    background: url(assets/images/sanfrancisco.jpg) no-repeat;
+    background: url(assets/images/sanfrancisco.jpg) repeat-x top;
     background-size: cover;
     height: 200px;
     margin-top: 15px;
@@ -136,21 +136,117 @@ nav a:hover {
     text-align: justify;
  }
 
+ section {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+ }
+
+ section h1 {
+    font-size: 17px;
+ }
+
+ #article-title {
+    display: flex;
+    align-items: center;
+ }
+
+ #article-title img {
+    margin-right: 10px;
+ }
+
+ aside {
+    background: #706b64;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    position: relative;
+    margin-left: 15px;
+    box-shadow: 0px 2px 10px #1c1a19;
+    flex:1.5;
+    height: fit-content;
+ }
+
+ aside h1 {
+    text-align: center;
+ }
+
+ aside p {
+    font-size: 15px;
+ }
+
+ #logos-clic {
+   display: flex;
+   justify-content: center;
+ }
+
+ #logos-clic img {
+    margin-left: 5px;
+ }
+
+ #logos-clic img:first-child {
+    margin-left: 0px;
+ }
+
+ article {
+    flex: 3;
+ }
+
+ #photo-zozor {
+    text-align: center;
+ }
+
+ #photo-zozor img {
+    border: 1px #4f4c4a solid;
+ }
+
+ #fleche-bulle {
+    position: absolute;
+    left:-10px;
+    top:50%;
+ }
+
  /* Footer */
 
  footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    background: url(assets/images/separateur.png) repeat-x, url(assets/images/ico_top.png) no-repeat top, url(assets/images/ombre.png) repeat-x top;
+    padding-top: 25px
+ }
+
+ footer p, footer ul {
+    font-size: 15px;
  }
 
  footer h1 {
     text-align: center;
+    font-size: 17px;
+ }
+
+ #photos p {
+    text-align: center;
+ }
+
+ #photos img {
+    border: solid 1px #4f4c4a;
  }
 
  footer ul {
     list-style-type:circle;
+    color: #760001;
+ }
+
+ footer div {
+width: 300px;
  }
 
  #liste-amis {
     display: flex;
  }
+
+ #liste-amis a {
+    text-decoration: none;
+    color: #760001;
+ }
+
