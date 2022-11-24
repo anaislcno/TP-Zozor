@@ -178,6 +178,7 @@ nav a:hover {
  #logos-clic {
    display: flex;
    justify-content: center;
+   width: 100%;
  }
 
  #logos-clic img {
@@ -250,3 +251,40 @@ width: 300px;
     color: #760001;
  }
 
+/* Media queries  */
+
+@media all and (max-width: 900px) {
+
+   #main-wrapper {
+      width: auto;
+   }
+
+   #banniere-img {
+      display: none;
+   }
+}
+
+@media all and (max-width: 900px) {
+
+   section {
+      flex-direction: column;
+   }
+
+   article, aside {
+      width: auto;
+      margin-bottom: 15px;
+   }
+
+   #fleche-bulle {
+      display: none;
+   }
+
+   #photo-zozor {
+      float: right;
+      margin-left: 15px;
+      }
+
+   aside p:last-child {
+      text-align: center;
+   }
+}
